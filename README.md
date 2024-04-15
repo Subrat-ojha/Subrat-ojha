@@ -84,7 +84,7 @@ Here are some ideas to get you started:
 ## **Wanna know more about me?** 
 **Send me an email** : iamsubratojha@gmail.com
 
-<a href="https://jiganesh.sayout.net/">
+<a href="https://subrat.sayout.net/">
 	<img src= "https://img.shields.io/badge/Send Anonymous Messages-664E6B?style=for-the-badge&logo=googlemessages&logoColor=white">
 </a>
 
@@ -99,13 +99,6 @@ Here are some ideas to get you started:
 <!--Future Improvements
 
 
-<p align="center">
-	<a href="https://ekramasif.github.io/" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/web.png" alt="Portfolio"/></a>
-	<a href="https://github.com/ekramasif" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/github.png" alt="GitHub"/></a>
-	<a href="https://www.linkedin.com/in/ekramasif/" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/linkedin.png" alt="LinkedIn"/></a>
-	<a href="https://www.facebook.com/ekram.asif/" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/facebook-new.png" alt="Facebook"/></a>
-	<a href="https://www.instagram.com/ekram_asif/" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/instagram.png" alt="Instagram"/></a>
-	<a href="mailto:mdekramuddin23@gmail.com" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/gmail.png" alt="Gmail"/></a>
-</p>
+
 
 -->
