@@ -46,6 +46,9 @@ def simple_request(func_name, query, variables):
     """
     request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables':variables}, headers=HEADERS)
     if request.status_code == 200:
+        json_data = request.json()
+        if 'errors' in json_data:
+            raise Exception(func_name, ' has failed with GraphQL errors:', json_data['errors'], QUERY_COUNT)
         return request
     raise Exception(func_name, ' has failed with a', request.status_code, request.text, QUERY_COUNT)
 
@@ -388,7 +391,10 @@ def user_getter(username):
     }'''
     variables = {'login': username}
     request = simple_request(user_getter.__name__, query, variables)
-    return {'id': request.json()['data']['user']['id']}, request.json()['data']['user']['createdAt']
+    json_data = request.json()
+    if json_data['data']['user'] is None:
+        raise Exception('user_getter', ' has failed because the user was not found. Check if USER_NAME is correct.', QUERY_COUNT)
+    return {'id': json_data['data']['user']['id']}, json_data['data']['user']['createdAt']
 
 def follower_getter(username):
     """
